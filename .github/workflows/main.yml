@@ -15,5 +15,5 @@ jobs:
 
           # Create CML report
           cat metrics.txt >> report.md
-          echo '![feature_importance](./feature_importance)' >> report.md
+          # echo '![feature_importance](./feature_importance)' >> report.md
           cml comment create report.md
