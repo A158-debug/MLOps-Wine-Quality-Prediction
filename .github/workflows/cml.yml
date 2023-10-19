@@ -20,7 +20,7 @@ jobs:
           echo "## Data viz" >> report.md
           
           # Add image in report
-          echo "![](./feature_importance.png)" >> report.md  
-          echo "![](./resudials.png)" >> report.md
+          echo "![Feature Importance](feature_importance.png)" >> report.md  
+          echo "![Residuals](resudials.png)" >> report.md
           cml comment create --publish report.md
       
