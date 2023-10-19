@@ -5,18 +5,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: iterative/setup-cml@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - uses: iterative/setup-cml@v1
+      
       - name: Train model
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r requirements.txt
           python train.py
-
-          # echo "## MODEL METRICS" > report.md
-          # cml comment create --publish report.md
           
-          # cat metrics.txt >> report.md
+      - name: Write CML report
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat metrics.txt >> report.md
+          cml comment create --publish report.md
+          
+          # echo "## MODEL METRICS" > report.md
           # echo "## Data viz" >> report.md
           # Add image in report
           # cml comment update feature_importance.png --md >> report.md
