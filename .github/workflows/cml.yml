@@ -17,10 +17,11 @@ jobs:
           echo "## MODEL METRICS" > report.md
           cat metrics.txt >> report.md
 
-          echo "## Data viz" >> report.md
+          # echo "## Data viz" >> report.md  
           
-          # Add image in report
-          echo "![Feature Importance](feature_importance.png)" >> report.md  
-          echo "![Residuals](resudials.png)" >> report.md
+          # # Add image in report
+          # echo "![Feature Importance](feature_importance.png)" >> report.md  
+          # echo "![Residuals](resudials.png)" >> report.md
+          
           cml comment create --publish report.md
       
