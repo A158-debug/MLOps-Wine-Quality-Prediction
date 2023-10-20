@@ -17,3 +17,8 @@ Here's a high-level overview of the workflow in this repository:
 2. The workflow includes steps to install dependencies, train the model, and generate model performance metrics.
 3. CML is used to create reports and comments, providing insights into model quality.
 4. Reports, comments, and other information are shared right here on this repository.
+
+
+![feature_importance](https://github.com/A158-debug/MLOps-Wine-Quality-Prediction/assets/76657113/5da56257-66ea-439d-bb00-1669b1e87e5d)
+![residuals](https://github.com/A158-debug/MLOps-Wine-Quality-Prediction/assets/76657113/d12722d1-fb0a-4085-8b3e-eb3418a71a45)
+
