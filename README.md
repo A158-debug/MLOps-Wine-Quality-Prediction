@@ -1,4 +1,6 @@
 # Wine quality prediction
+![dataset-cover](https://github.com/A158-debug/MLOps-Wine-Quality-Prediction/assets/76657113/52e2c911-6ffa-4cd8-a5c2-f94c8055ba68)
+
 Modelling a Kaggle dataset of [red wine properties and quality ratings](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009). 
 
 - In this project, I've set up GitHub Actions and Continuous Machine Learning (CML) to trigger specific actions whenever there's a push to this repository. 
