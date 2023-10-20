@@ -1,7 +1,7 @@
 # Wine quality prediction
 Modelling a Kaggle dataset of [red wine properties and quality ratings](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009). 
 
-- In this project, I've set up GitHub Actions and Continous Machine Learning (CML) to trigger specific actions whenever there's a push to this repository. 
+- In this project, I've set up GitHub Actions and Continuous Machine Learning (CML) to trigger specific actions whenever there's a push to this repository. 
 
 <p align="center">
   <img src="https://static.iterative.ai/img/cml/title_strip_trim.png" width=400>
